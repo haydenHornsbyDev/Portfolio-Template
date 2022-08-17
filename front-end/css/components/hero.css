@@ -1,0 +1,95 @@
+.c-hero {
+    padding-bottom: 39px;
+}
+
+.c-hero__top {
+    padding-bottom: 20px;
+}
+
+.c-hero__bot {
+    position: relative;
+}
+
+.c-hero__title {
+    margin-top: 18px;
+    margin-bottom: 31px;
+}
+
+.c-hero__heading {
+    margin-bottom: 23px;
+    margin-right: 1px;
+    min-width: 340px;
+}
+
+.c-hero__text {
+    margin-bottom: 8px;
+    max-width: 470px;
+}
+
+.c-hero__work {
+    display: inline-flex;
+    margin-bottom: 137px;
+    margin-right: 46px;
+}
+
+.c-hero__contact {
+    display: inline-flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: fit-content;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.c-hero__contact:hover {
+    text-decoration: none;
+    opacity: 64%;
+}
+
+.c-hero__reference {
+    position: absolute;
+    bottom: 0;
+}
+
+.c-hero__quotee-img {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 16px;
+}
+
+.c-hero__quote-text {
+    display: inline-block;
+    width: calc(100% - 68px);
+}
+
+.c-hero__quote {
+    margin-bottom: 3px;
+}
+
+.c-hero__quotee-name {}
+
+@media only screen and (min-width: 1216px) {
+    .c-hero {
+        padding-top: 98px;
+        padding-bottom: 63px;
+        height: 100%;
+        min-height: calc(100vh - 80px);
+        max-height: 900px;
+    }
+
+    .c-hero__top {
+        padding-bottom: 0;
+    }
+
+    .c-hero__title {
+        margin-bottom: 34px;
+    }
+
+    .c-hero__heading {
+        margin-bottom: 35px;
+    }
+
+    .c-hero__text {
+        margin-bottom: 26px;
+    }
+}

@@ -1,0 +1,108 @@
+.c-service-cards {}
+
+.c-service-cards__title {
+    margin-bottom: 28px;
+}
+
+.c-service-cards__heading {
+    margin-bottom: 38px;
+    width: max-content;
+}
+
+.c-service-cards__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 1186px) {
+    .c-service-cards__cards {
+        flex-direction: row;
+    }
+}
+
+.c-service-cards__card {
+    border: 1px solid #f3d1bf;
+    padding: 48px 28px 40px 28px;
+    width: 329px;
+    height: 100%;
+}
+
+@media only screen and (min-width: 1186px) {
+    .c-service-cards__card {
+        width: 391px;
+        padding-left: 48px;
+        padding-right: 48px;
+        height: 439px;
+    }
+}
+
+@media only screen and (min-width: 1216px) {
+    .c-service-cards__card {
+        height: 100%;
+    }
+}
+
+.c-service-cards__card--top {
+    border-radius: 6px 6px 0px 0px;
+}
+
+.c-service-cards__card--mid {
+    margin-top: -1px;
+}
+
+.c-service-cards__card--bot {
+    margin-top: -1px;
+    border-radius: 0px 0px 6px 6px;
+}
+
+@media only screen and (min-width: 1186px) {
+    .c-service-cards__card--top {
+        border-radius: 6px 0px 0px 6px;
+    }
+    
+    .c-service-cards__card--mid {
+        margin-top: 0px;
+        margin-left: -1px;
+    }
+    
+    .c-service-cards__card--bot {
+        margin-top: 0px;
+        margin-left: -1px;
+        border-radius: 0px 6px 6px 0px;
+    }
+}
+
+.c-service-cards__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: #ef6c57;
+}
+
+.c-service-cards__name {
+    margin-bottom: 30px;
+}
+
+.c-service-cards__text {
+    margin-bottom: 14px;
+}
+
+.c-service-cards__link {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: fit-content;
+    color: #391400;
+    text-decoration: none;
+}
+
+.c-service-cards__link:hover {
+    text-decoration: none;
+    opacity: 64%;
+}

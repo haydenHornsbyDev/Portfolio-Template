@@ -1,0 +1,49 @@
+.c-card {
+    border: 1px solid #f3d1bf;
+    padding-left: 48px;
+    max-width: 336px;
+}
+
+@media only screen and (min-width: 766px) {
+    .c-card {
+        display: inline-block;
+        width: 336px;
+    }
+}
+
+.c-card--prof {
+    border-radius: 6px 6px 0px 0px;
+    padding-top: 48px;
+    height: 336px;
+    background-color: #ffffff;
+}
+
+@media only screen and (min-width: 766px) {
+    .c-card--prof {
+        border-radius: 6px 6px 0px 6px;
+    }
+}
+
+.c-card--acc {
+    margin-top: -1px;
+    border-radius: 0px 0px 6px 6px;
+    padding-top: 113px;
+    height: 272px;
+}
+
+@media only screen and (min-width: 766px) {
+    .c-card--acc {
+        margin-top: 0px;
+        margin-left: -5px;
+        border-radius: 0px 6px 6px 0px;
+    }
+}
+
+.c-card__icon {
+    margin-bottom: 45px;
+
+}
+
+.c-card__title {
+    margin-bottom: 30px;
+}

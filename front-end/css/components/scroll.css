@@ -1,0 +1,19 @@
+.c-scroll {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: min-content;
+}
+
+.c-scroll__dot {
+    margin: 0 10px;
+    border: 1px solid #4e4f6e;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+
+.c-scroll__dot.is-active {
+    border: none;
+    background-color: #ef6d58;
+}

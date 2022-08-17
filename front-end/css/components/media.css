@@ -1,0 +1,41 @@
+.c-media {
+    margin-bottom: 96px;
+}
+
+.c-media__top {
+    margin-bottom: 17px;
+    flex-shrink: 0;
+    aspect-ratio: 1.27;
+}
+
+.c-media__bot {
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    aspect-ratio: 1.27;
+}
+
+.c-media__row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.c-media__img {
+    aspect-ratio: 1.3;
+    width: 47.5%
+}
+
+@media only screen and (min-width: 1216px) {
+    .c-media {
+        margin-bottom: 128px;
+    }
+
+    .c-media__top {
+        margin-bottom: 0;
+    }
+
+    .c-media__bot {
+        margin-bottom: 4px;
+    }
+}

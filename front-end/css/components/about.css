@@ -1,0 +1,56 @@
+.c-about {
+    margin-top: 84px;
+    margin-bottom: 73px;
+}
+
+.c-index__about.c-about {
+    margin-top: 0;
+}
+
+.c-about__top {
+    margin-bottom: 42px;
+}
+
+.c-index__about > .c-about__top {
+    margin-bottom: 24px;
+}
+
+.c-about__title {
+    margin-bottom: 28px;
+}
+
+.c-about__heading {}
+
+.c-about__bot {}
+
+.c-index__about > .c-about__bot {}
+
+.c-index__about .c-about__heading {
+    margin-bottom: 38px;
+}
+
+.c-about__tag {
+    margin-bottom: 31px;
+}
+
+.c-about__text {
+    margin-bottom: 24px;
+    max-width: 470px;
+}
+
+.c-about__button {}
+
+@media only screen and (min-width: 1216px) {
+    .c-about {
+        margin-top: 84px;
+        margin-bottom: 105px;
+    }
+    
+    .c-about__title {
+        margin-bottom: 31px;
+    }
+
+    .c-about__bot {
+        margin-top: 80px;
+    }
+}

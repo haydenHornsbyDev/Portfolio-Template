@@ -1,0 +1,25 @@
+.c-back {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 570px;
+    line-height: normal;
+    text-decoration: none;
+}
+.c-back:hover {
+    text-decoration: none;
+}
+
+.c-back__arrow {
+    display: inline-block;
+    margin-right: 14px;
+}
+
+.c-back__arrow > * {
+    display: block;
+}
+
+.c-back__label {
+    display: inline-block;
+    color: #341900;
+}

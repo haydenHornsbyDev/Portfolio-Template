@@ -1,0 +1,19 @@
+{
+  "name": "proj-x",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run nodemon\" \"npm run browser-sync\"",
+    "nodemon": "nodemon index.js",
+    "browser-sync": "wait-on tcp:3000 && browser-sync start --proxy \"localhost:3000\" --files \"front-end/**/(*.html|*.css|*.js)\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hayden",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.1.0",
+    "express": "^4.18.1",
+    "wait-on": "^6.0.1"
+  }
+}

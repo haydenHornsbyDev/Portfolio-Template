@@ -1,0 +1,45 @@
+.c-events{}
+
+.c-events__title {
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.c-events__heading {
+    padding-bottom: 38px;
+    text-align: center;
+}
+
+.c-events__cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -32px;
+    margin-bottom: 48px;
+}
+
+.c-events__card {
+    margin-top: 32px;
+}
+
+.c-events__button {
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 1186px) {
+    .c-events__title {
+        margin-bottom: 31px;
+    }
+    
+    .c-events__heading {
+        padding-bottom: 67px;
+    }
+    
+    .c-events__cards {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: unset;
+        margin-bottom: 64px;
+    }
+}

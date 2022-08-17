@@ -1,0 +1,26 @@
+.c-services {
+    margin-top: 84px;
+    margin-bottom: 88px;
+}
+
+.c-services__top {
+    margin-bottom: 32px;
+}
+
+.c-services__title {
+    margin-bottom: 44px;
+}
+
+.c-services__heading {
+    max-width: 470px;
+}
+
+@media only screen and (min-width: 1216px) {
+    .c-services__top {
+        margin-bottom: 0px;
+    }
+    
+    .c-services__bot {
+        margin-top: 80px;
+    }
+}

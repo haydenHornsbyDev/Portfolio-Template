@@ -1,0 +1,193 @@
+.c-index {}
+
+.c-index__hero {
+    margin-top: 80px;
+}
+
+.c-index__logos.c-logos {
+    margin-bottom: 71px;
+    border-bottom: 1px solid #f3d1bf;
+    padding-top: 47px;
+    padding-bottom: 17.75px;
+}
+
+.c-index__about.c-about {
+    margin-bottom: 112px;
+}
+
+.c-index__stats.c-stats {
+    margin-bottom: 102px;
+}
+
+.c-index__how-work.c-how-work {
+    margin-bottom: 63px;
+    border-bottom: 1px solid #f3d1bf;
+    padding-bottom: 63px ;
+}
+
+.c-index__video-reel {
+    margin-bottom: 73px;
+}
+
+.c-index__features-txt {
+    margin-bottom: 138px;
+}
+
+.c-index__features.c-features {
+    margin-bottom: 112px;
+}
+
+.c-index__service {
+    margin-bottom: 132px;
+}
+
+.c-index__service-cards {
+    padding-bottom: 114px;
+}
+
+.c-index__portfolios.c-portfolios {
+    margin-top: 100px;
+    margin-bottom: 69px;
+}
+
+.c-index__get-started {
+    margin-bottom: 148px;
+}
+
+.c-index__events {
+    margin-bottom: 132px;
+}
+
+.c-index__our-team.c-our-team {
+    margin-top: 0;
+    margin-bottom: 116px;
+}
+
+.c-index__founder {
+    margin-bottom: 93px;
+}
+
+.c-index__testimonials.c-testimonials {
+    margin-top: 100px;
+    margin-bottom: 132px;
+}
+
+.c-index__pricing {
+    margin-bottom: 100px;
+}
+
+.c-index__faq.c-faq {
+    margin-bottom: 96px;
+}
+
+.c-index__awards {
+    margin-bottom: 127px;
+}
+
+.c-index__our-blog {}
+
+.c-index__our-blog .c-related {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.c-index__newsletter.c-newsletter {
+    margin-bottom: 128px;
+    border-top: 1px solid #f3d1bf;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.c-index__contact {
+    padding-bottom: 32px;
+}
+
+.c-index__contact-details {
+    margin-bottom: 128px;
+}
+
+@media only screen and (min-width: 1216px) {
+    .c-index__logos.c-logos {
+        margin-bottom: 101px;
+        padding-top: 73px;
+        padding-bottom: 72px;
+    }
+    
+    .c-index__about.c-about {
+        margin-bottom: 161px;
+    }
+    
+    .c-index__stats.c-stats {
+        margin-bottom: 148px;
+    }
+    
+    .c-index__how-work.c-how-work {
+        margin-bottom: 127px;
+        padding-bottom: 111px ;
+    }
+    
+    .c-index__video-reel {
+        margin-bottom: 191px;
+    }
+    
+    .c-index__features-txt {
+        margin-bottom: 202px;
+    }
+    
+    .c-index__features.c-features {
+        margin-bottom: 224px;
+    }
+    
+    .c-index__service {
+        margin-bottom: 149px;
+    }
+    
+    .c-index__service-cards {
+        padding-bottom: 128px;
+    }
+    
+    .c-index__portfolios.c-portfolios {
+        margin-bottom: 117px;
+    }
+    
+    .c-index__events {
+        margin-bottom: 148px;
+    }
+    
+    .c-index__our-team.c-our-team {
+        margin-bottom: 180px;
+    }
+    
+    .c-index__founder {
+        margin-bottom: 176px;
+    }
+    
+    .c-index__testimonials.c-testimonials {
+        margin-top: 132px;
+        margin-bottom: 116px;
+    }
+    
+    .c-index__pricing {
+        margin-bottom: 164px;
+    }
+    
+    .c-index__faq.c-faq {
+        margin-bottom: 160px;
+    }
+    
+    .c-index__our-blog {
+        margin-bottom: 16px;
+    }
+    
+    .c-index__newsletter.c-newsletter {
+        margin-bottom: 118px;
+    }
+    
+    .c-index__contact {
+        padding-bottom: 80px;
+    }
+    
+    .c-index__contact-details {
+        margin-bottom: 130px;
+    }
+}

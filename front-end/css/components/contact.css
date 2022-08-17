@@ -1,0 +1,60 @@
+.c-contact {
+    padding-top: 64px;
+    padding-bottom: 32px;
+}
+
+.c-contact__form {
+    margin-bottom: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 470px;
+}
+
+.c-contact__map {
+    z-index: 0;
+    position: relative;
+    width: 100%;
+    height: 720px;
+    background-image: url("/media/c-contact__map.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.c-contact__pin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 50%;
+    top: calc(50% - 31px);
+    right: calc(50% - 31px);
+    width: 72px;
+    height: 72px;
+    background-color: #ef6d58;
+}
+
+@media only screen and (min-width: 1006px) {
+    .c-contact {
+        padding-top: 0;
+        padding-bottom: 80px;
+    }
+
+    .c-contact__form {
+        z-index: 1;
+        position: relative;
+        margin-top: 128px;
+        margin-left: 0;
+    }
+
+    .c-contact__map {
+        z-index: 0;
+        margin-top: -652px;
+    }
+
+
+    .c-contact__pin {
+        top: calc(50% - 31px);
+        right: calc(25% - 31px);
+    }
+}

@@ -1,0 +1,28 @@
+.c-blogs {
+    border-bottom: 1px solid #f3d1bf;
+    padding-bottom: 80px;
+}
+
+.c-blogs__grid {
+    margin: 0 auto;
+    max-width: 370px;
+}
+
+.c-blogs__load-more {
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 1006px) {
+    .c-blogs__grid {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: none;
+    }
+}
+
+@media only screen and (min-width: 1186px) {
+    .c-blogs__grid {
+        justify-content: space-between;
+    }
+}

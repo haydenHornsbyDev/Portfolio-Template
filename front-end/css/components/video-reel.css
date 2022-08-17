@@ -1,0 +1,26 @@
+.c-video-reel {}
+
+.c-video-reel__top {
+    margin-bottom: 32px;
+}
+
+.c-video-reel__bot {}
+
+.c-video-reel__title {
+    margin-bottom: 28px;
+}
+
+.c-video-reel__heading {
+    margin-bottom: 20px;
+    max-width: 470px;
+}
+
+.c-video-reel__text {
+    max-width: 470px;
+}
+
+@media only screen and (min-width: 1216px) {
+    .c-video-reel__bot {
+        margin-top: 68px;
+    }
+}

@@ -1,0 +1,68 @@
+.c-drop-cards {
+    margin-top: 1px;
+}
+
+.c-drop-cards__card {
+    margin-top: -1px;
+    border: 1px solid #3a3c56;
+    padding: 40px 28px 43px 28px;
+}
+
+.c-drop-cards--light .c-drop-cards__card{
+    border-color: #f3d1bf;
+}
+
+.c-drop-cards__card.is-active {
+    background-color: #ffffff;
+    transition: background-color 2s;
+}
+
+.c-drop-cards__card--top {
+    border-radius: 6px 6px 0px 0px;
+}
+
+.c-drop-cards__card--bot {
+    border-radius: 0px 0px 6px 6px;
+}
+
+.c-drop-cards__heading {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    width: calc(100% - 51px)
+}
+
+.c-drop-cards__card.is-active > .c-drop-cards__heading {
+    color: #391400;
+}
+
+.c-drop-cards__toggle {
+    display: inline-flex;
+    vertical-align: top;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    background-color: #ef6d58;
+}
+
+.c-drop-cards__toggle > * {
+    transform: rotate(180deg);
+
+}
+
+.c-drop-cards__card.is-active > .c-drop-cards__toggle > *{
+    transform: rotate(0deg);
+    transition: transform 2s;
+}
+
+.c-drop-cards__text {
+    display: none;
+    margin-top: 30px;
+    color: #391400;
+}
+
+.c-drop-cards__card.is-active > .c-drop-cards__text {
+    display: block;
+}

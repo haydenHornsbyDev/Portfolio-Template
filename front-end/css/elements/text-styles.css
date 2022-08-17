@@ -1,0 +1,70 @@
+h1 {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: -0.002778em;
+}
+
+h2 {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: -0.001786em;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+@media only screen and (min-width: 1006px) {
+    h2.u-enlarge{
+        font-size: 72px;
+        line-height: 80px;
+        letter-spacing: -0.002778em;
+    }
+
+    h3.u-enlarge{
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -0.001786em;
+    }
+
+    h4.u-enlarge {
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 48px;
+    }
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.1875em;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}

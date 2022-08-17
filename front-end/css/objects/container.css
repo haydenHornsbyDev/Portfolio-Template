@@ -1,0 +1,48 @@
+.o-container {
+    display: block;
+    margin: 0 auto;
+    padding-right: 23px;
+    padding-left: 23px;
+    max-width: 100%;
+    width: 100%;
+}
+
+@media only screen and (min-width: 586px) {
+    .o-container {
+        padding: 0;
+        width: 540px;
+    }
+}
+
+@media only screen and (min-width: 766px) {
+    .o-container {
+        width: 720px;
+    }
+}
+
+@media only screen and (min-width: 1006px) {
+    .o-container {
+        width: 960px;
+    }
+}
+
+@media only screen and (min-width: 1186px) {
+    .o-container {
+        width: 1140px;
+    }
+}
+
+@media only screen and (min-width: 1216px) {
+    .o-container {
+        width: 1170px;
+    }
+}
+
+
+/* <586px	Small
+≥586px	Medium
+≥766px	Large
+≥1006px	X-Large
+≥1186px	XX-Large
+≥1216px
+.container	100%	540px	720px	960px	1140px	1170px */

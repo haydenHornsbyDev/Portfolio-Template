@@ -1,0 +1,134 @@
+.c-drop-card-thing {
+    margin-top: 1px;
+    margin-bottom: 99px;
+}
+
+.c-drop-card-thing__card {
+    margin-top: -1px;
+    border-bottom: 1px solid #f3d1bf;
+}
+
+.c-drop-card-thing__top {
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #f3d1bf;
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+
+.c-drop-card-thing__icon {
+    display: inline-flex;
+    vertical-align: top;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+    margin-right: 33px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: #ef6c57;
+}
+
+.c-drop-card-thing__name {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    min-width: calc(100% - 155px);
+    width: min-content;
+    hyphens: manual;
+}
+
+.c-drop-card-thing__toggle {
+    display: inline-flex;
+    vertical-align: top;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    background-color: #ef6d58;
+}
+
+.c-drop-card-thing__toggle > * {
+    transform: rotate(180deg);
+}
+
+.c-drop-card-thing__card.is-active .c-drop-card-thing__toggle > *{
+    transform: rotate(0deg);
+    transition: transform 2s;
+}
+
+.c-drop-card-thing__bot {
+    display: none;
+    border-top: 1px solid #f3d1bf;
+    padding-top: 76px;
+    padding-bottom: 86px;
+}
+
+.c-drop-card-thing__card.is-active > .c-drop-card-thing__bot {
+    display: block;
+}
+
+.c-drop-card-thing__bot > * {
+    margin: 0 auto;
+    max-width: 570px;
+}
+
+.c-drop-card-thing__heading {
+    margin-bottom: 32px;
+}
+
+.c-drop-card-thing__text {
+    margin-bottom: 34px;
+}
+
+.c-drop-card-thing__list {
+    margin-top: -8px;
+    margin-bottom: -8px;
+    list-style: none;
+}
+
+.c-drop-card-thing__item {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.c-drop-card-thing__tick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    background-color: #ef6c57;
+}
+
+@media only screen and (min-width: 1216px) {
+    .c-drop-card-thing {
+        margin-bottom: 115px;
+    }
+
+    .c-drop-card-thing__top {
+        padding-top: 47px;
+        padding-bottom: 47px;
+    }
+
+    .c-drop-card-thing__bot {
+        padding-top: 80px;
+        padding-bottom: 102px;
+    }
+    
+    .c-drop-card-thing__bot > * {
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .c-drop-card-thing__text {
+        margin-bottom: 28px;
+    }
+}

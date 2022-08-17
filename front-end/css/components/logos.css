@@ -1,0 +1,19 @@
+.c-logos {
+    margin-top: -23.25px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 97.75px;
+}
+
+.c-logos__logo {
+    display: flex;
+    align-items: center;
+    height: 88.5px;
+}
+
+@media only screen and (min-width: 1216px) {
+    .c-logos {
+        margin-bottom: 90.75px;
+    }
+}

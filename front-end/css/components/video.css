@@ -1,0 +1,32 @@
+.c-video {
+    position: relative;
+    aspect-ratio: 1.55;
+}
+
+.c-video--about {
+    aspect-ratio: 1.27;
+}
+
+.c-video > img {
+    width: 100%;
+    height: 100%;
+}
+
+.c-video__play {
+    position: absolute;
+    top: calc(50% - 74px);
+    left: calc(50% - 74px);
+}
+
+.c-video__time {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+}
+
+@media only screen and (min-width: 1216px) {
+    .c-video__time {
+        bottom: 24px;
+        left: 24px;
+    }
+}

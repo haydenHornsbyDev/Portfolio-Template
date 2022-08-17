@@ -1,0 +1,19 @@
+.c-txt--big {
+    font-size: 20px;
+}
+
+.c-txt--small {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.c-txt--gray {
+    opacity: 64%;
+}
+
+.c-txt--label {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    text-transform: uppercase;
+}

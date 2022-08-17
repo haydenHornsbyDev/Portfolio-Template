@@ -1,0 +1,93 @@
+
+/*--------------IMPORTS-------------*/
+
+/*              GENERIC             */
+@import "css/generic/reset.css";
+
+/*              ELEMENTS            */
+@import "css/elements/body.css";
+@import "css/elements/html.css";
+@import "css/elements/text-styles.css";
+
+/*              OBJECTS             */
+@import "css/objects/container.css";
+@import "css/objects/wrapper.css";
+
+/*              COMPONENTS          */
+@import "css/components/about.css";
+@import "css/components/awards.css";
+@import "css/components/back.css";
+@import "css/components/blog-preview.css";
+@import "css/components/blog-section.css";
+@import "css/components/blog.css";
+@import "css/components/blogs.css";
+@import "css/components/button.css";
+@import "css/components/get-start.css";
+@import "css/components/card.css";
+@import "css/components/contact-card.css";
+@import "css/components/contact-form.css";
+@import "css/components/contact.css";
+@import "css/components/drop-card-thing.css";
+@import "css/components/drop-cards.css";
+@import "css/components/event-card.css";
+@import "css/components/events.css";
+@import "css/components/faq.css";
+@import "css/components/featured.css";
+@import "css/components/features-txt.css";
+@import "css/components/features.css";
+@import "css/components/footer.css";
+@import "css/components/founder.css";
+@import "css/components/header.css";
+@import "css/components/hero.css";
+@import "css/components/how-work.css";
+@import "css/components/img.css";
+@import "css/components/index.css";
+@import "css/components/intro.css";
+@import "css/components/logo.css";
+@import "css/components/logos.css";
+@import "css/components/media.css";
+@import "css/components/menu-icon.css";
+@import "css/components/nav.css";
+@import "css/components/newsletter.css";
+@import "css/components/our-blog.css";
+@import "css/components/our-team.css";
+@import "css/components/portfolio.css";
+@import "css/components/portfolios.css";
+@import "css/components/pricing.css";
+@import "css/components/profile.css";
+@import "css/components/related.css";
+@import "css/components/review.css";
+@import "css/components/scroll.css";
+@import "css/components/service-cards.css";
+@import "css/components/service.css";
+@import "css/components/services.css";
+@import "css/components/stats.css";
+@import "css/components/testimonials.css";
+@import "css/components/title.css";
+@import "css/components/txt.css";
+@import "css/components/video-reel.css";
+@import "css/components/video.css";
+
+/*              UTILITIES           */
+@import "css/utilities/wrap.css";
+
+
+/*              STATE               */
+@import "css/state/hidden.css";
+
+/*----------------------------------*/
+
+
+/*      MEDIA QUIERY TEMPLATE       */
+@media only screen and (min-width: 586px) {}
+@media only screen and (min-width: 766px) {}
+@media only screen and (min-width: 1006px) {}
+@media only screen and (min-width: 1186px) {}
+@media only screen and (min-width: 1216px) {}
+/* <586px	Small
+≥586px	Medium
+≥766px	Large
+≥1006px	X-Large
+≥1186px	XX-Large
+≥1216px
+.container	100%	540px	720px	960px	1140px	1170px */

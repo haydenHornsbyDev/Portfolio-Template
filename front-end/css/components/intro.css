@@ -1,0 +1,26 @@
+.c-intro {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 68px;
+    padding-bottom: 69px;
+    width: 100%;
+    max-width: 570px;
+    text-align: center;
+}
+
+.c-intro__heading {
+    margin-bottom: 23px;
+}
+
+@media only screen and (min-width: 1006px) {
+    .c-intro {
+        margin-top: 80px;
+        padding-top: 87px;
+        padding-bottom: 54px;
+    }
+    
+    .c-intro__heading {
+        margin-bottom: 35px;
+    }
+}

@@ -1,0 +1,14 @@
+.o-wrapper {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.o-wrapper--dark {
+    background-color: #28293e;
+    color: #ffffff;
+}
+
+.o-wrapper--light {
+    background-color: #fdf0e9;
+    color: #391400;
+}

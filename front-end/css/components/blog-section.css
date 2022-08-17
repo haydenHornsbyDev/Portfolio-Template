@@ -1,0 +1,43 @@
+.c-blog-section {}
+
+.c-blog-section__header {
+    margin-bottom: 46px;
+}
+
+.c-blog-section__text {
+    margin-bottom: 53px;
+}
+
+.c-blog-section__text--top {
+    margin-bottom: 28px;
+}
+
+.c-blog-section__list {
+    margin-bottom: 47px;
+    list-style: none;
+}
+
+.c-blog-section__item {
+    margin-top: 15px;
+}
+
+.c-blog-section__list-bullet {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+    margin-right: 16px;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: #ef6d58;
+}
+
+@media only screen and (min-width: 766px) {
+    .c-blog-section {
+        margin-bottom: -11px;
+    }
+
+    .c-blog-section__text {
+        margin-bottom: 61px;
+    }
+}

@@ -1,0 +1,123 @@
+.c-footer {
+    margin-top: 109px;
+}
+
+.c-footer__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+@media only screen and (min-width: 766px) {
+    .c-footer__top {
+        flex-direction: row;
+        align-items: unset;
+        justify-content: space-between;
+    }
+}
+
+.c-footer__comp-name {
+    margin-bottom: 60px;
+}
+
+.c-footer__list {
+    margin-bottom: 60px;
+    list-style: none;
+    text-align: center;
+}
+
+@media only screen and (min-width: 766px) {
+    .c-footer__list {
+        margin-bottom: 11px;
+        text-align: left;
+    }
+}
+
+.c-footer__item {}
+
+.c-footer__item > .c-title {
+    margin-bottom: 31px;
+}
+
+.c-footer__link {
+    height: 32px;
+    color: #391400;
+    text-decoration: none;
+}
+
+.c-footer__link:hover {
+    opacity: 64%;
+    text-decoration: none;
+}
+
+.c-footer__logos {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    height: 48px;
+}
+
+.c-footer__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    background-color: #ef6d58;
+}
+
+.c-footer__bot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #f3d1bf;
+    padding-top: 51px;
+    padding-bottom: 59px;
+}
+
+@media only screen and (min-width: 766px) {
+    .c-footer__bot {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: unset;
+    }
+}
+
+.c-footer__copywrite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 47px;
+    max-width: 351px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 766px) {
+    .c-footer__copywrite {
+        flex-direction: row;
+        align-items: unset;
+        margin-bottom: 0;
+    }
+}
+
+.c-footer__links {
+    display: flex;
+    justify-content: space-between;
+    width: 275px;
+}
+
+@media only screen and (min-width: 1216px) {
+    .c-footer {
+        margin-top: 93px;
+    }
+
+    .c-footer__top {
+        margin-bottom: 75px;
+    }
+
+    .c-footer__logos {
+        margin-top: -13px;
+    }
+}

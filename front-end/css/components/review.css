@@ -1,0 +1,60 @@
+.c-review {
+    padding: 48px 28px 48px 28px;
+}
+
+@media only screen and (min-width: 1186px) {
+    .c-review {
+        padding: 48px;
+    }
+}
+
+.c-review--white {
+    background-color: #ffffff;
+}
+
+.c-review * {
+    color: #391400;
+}
+
+.c-review--cara {
+    border: 1px solid #f3d1bf;
+    border-radius: 0px 0px 6px 6px;
+    padding: 48px 51px 48px 51px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+@media only screen and (min-width: 1006px) {
+    .c-review--cara {
+        width: 770px;
+    }
+    
+}
+
+.c-review--cara * {
+    color: #391400;
+}
+
+.c-review__rating {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 46px;
+    width: 151px;
+}
+
+.c-review__text {
+    margin-bottom: 26px;
+}
+
+.c-review__portrait {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 24px;
+    width: 80px;
+    height: 80px;
+}
+
+.c-review__author {
+    display: inline-block;
+    margin-top: 16px;
+}

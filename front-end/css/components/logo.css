@@ -1,0 +1,19 @@
+.c-logo {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.c-logo:hover {
+    color: #ffffff4a;
+}
+
+.c-logo__img {
+    margin-right: 15px;
+}
+
+.c-logo__txt {
+    cursor: pointer;
+}

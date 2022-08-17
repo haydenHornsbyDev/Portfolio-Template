@@ -1,0 +1,40 @@
+.c-our-blog {
+    max-width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c-our-blog__title {
+    margin-bottom: 28px;
+}
+
+.c-our-blog__heading {
+    margin-bottom: 38px;
+}
+
+.c-our-blog__button {
+    margin-bottom: 48px;
+}
+
+@media only screen and (min-width: 1006px) {
+    .c-our-blog {
+        position: relative;
+        max-width: unset;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .c-our-blog__title {
+        margin-bottom: 31px;
+    }
+    
+    .c-our-blog__heading {
+        margin-bottom: 67px;
+    }
+    
+    .c-our-blog__button {
+        position: absolute;
+        right: 0px;
+        top: 130px;
+    }
+}

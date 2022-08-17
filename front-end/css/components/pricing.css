@@ -1,0 +1,133 @@
+.c-pricing {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 390px;
+}
+
+
+.c-pricing__title {
+    margin-bottom: 28px;
+}
+
+.c-pricing__heading {
+    margin-bottom: 38px;
+}
+
+.c-pricing__cards {}
+
+.c-pricing__card {
+    border: 1px solid #f3d1bf;
+    padding: 52px 28px 48px 28px;
+}
+
+.c-pricing__card--top {
+    border-radius: 6px 6px 0px 0px;
+}
+
+.c-pricing__card--mid {
+    margin-top: -1px;
+    background-color: #ffffff;
+}
+
+.c-pricing__card--bot {
+    margin-top: -1px;
+    border-radius: 0px 0px 6px 6px;
+}
+
+.c-pricing__service {
+    margin-bottom: 28px;
+}
+
+.c-pricing__price {
+    margin-bottom: 26px;
+}
+
+.c-pricing__text {
+    margin-bottom: 25px;
+}
+
+.c-pricing__list {
+    margin-top: -4px;
+    margin-bottom: 43px;
+    list-style: none;
+}
+
+.c-pricing__item {
+    margin-top: 29px;
+}
+
+.c-pricing__item > p {
+    display: inline-block;
+}
+
+.c-pricing__marker {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: -4px;
+    margin-right: 16px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+
+.c-pricing__marker--plus {
+    background-color: #ef6d58;
+}
+
+.c-pricing__marker--minus {
+    background-color: #f6daca;
+}
+
+.c-pricing__popular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -19px;
+    margin-bottom: 30px;
+    border-radius: 19px;
+    width: 92px;
+    height: 38px;
+    background-color: #ef6d58;
+    color: #ffffff;
+}
+
+@media only screen and (min-width: 1186px) {
+    .c-pricing {
+        max-width: unset;
+    }
+
+    .c-pricing__card {
+        display: inline-block;
+        border-radius: unset;
+        width: 33%;
+        max-width: 390px;
+    }
+
+    .c-pricing__card--top {
+        border-radius: 6px 0px 0px 6px;
+    }
+
+    .c-pricing__card--mid {
+        margin-top: 0;
+        margin-left: -5px;
+        border-radius: 6px 6px 0px 0px;
+    }
+
+    .c-pricing__card--bot {
+        margin-top: 0;
+        margin-left: -5px;
+        border-radius: 0px 6px 6px 0px;
+    }
+}
+
+@media only screen and (min-width: 1216px) {
+    .c-pricing__title {
+        margin-bottom: 31px;
+    }
+
+    .c-pricing__heading {
+        margin-bottom: 19px;
+    }
+}

@@ -1,0 +1,27 @@
+.c-blog-preview {
+    margin-bottom: 59px;
+    width: 100%;
+    max-width: 370px;
+}
+
+.c-blog-preview__img {
+    display: block;
+    margin-bottom: 32px;
+    height: 224px;
+}
+
+.c-blog-preview__type {
+    margin-bottom: 24px;
+}
+
+.c-blog-preview__header {
+    margin-bottom: 19px;
+}
+
+.c-blog-preview__date {}
+
+@media only screen and (min-width: 586px) {
+    .c-blog-preview__header {
+        margin-right: 32px;
+    }
+}

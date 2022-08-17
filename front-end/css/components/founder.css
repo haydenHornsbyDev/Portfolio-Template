@@ -1,0 +1,52 @@
+.c-founder {}
+
+.c-founder__top {
+    margin-bottom: 49px;
+}
+
+.c-founder .c-founder__bot {
+    position: relative;
+    max-width: 470px;
+}
+
+.c-founder__quote-marks {
+    z-index: 0;
+    position: absolute;
+    top: 9px;
+    right: 0px;
+}
+
+.c-founder__title {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.c-founder__quote {
+    z-index: 1;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.c-founder__quotee {}
+
+@media only screen and (min-width: 1216px) {
+    .c-founder__top {
+        margin-bottom: 0;
+    }
+
+    .c-founder__bot {
+        margin-top: 52px;
+    }
+    
+    .c-founder__quote-marks {
+        right: 46px;
+    }
+
+    .c-founder__title {
+        margin-bottom: 44px;
+    }
+    
+    .c-founder__quote {
+        margin-bottom: 45px;
+    }
+}

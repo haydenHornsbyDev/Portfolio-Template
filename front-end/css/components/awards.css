@@ -1,0 +1,98 @@
+.c-awards {}
+
+.c-awards__heading {
+    margin-bottom: 38px;
+    text-align: center;
+}
+
+.c-awards__award {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #f3d1bf;
+    padding-top: 31px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.c-awards__award--first {
+    border-top: 1px solid #f3d1bf;
+}
+
+.c-awards__spacer {}
+
+.c-awards__spacer--right {}
+
+.c-awards__img {
+    margin-bottom: 24px;
+}
+
+.c-awards__name {}
+
+.c-awards__date {
+    margin-bottom: 16px;
+}
+
+.c-awards__award-name {}
+
+.c-awards__award-icon {}
+
+.c-awards__text {
+    margin-top: 51px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.c-awards__text > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.c-awards__text > a:hover {
+    opacity: 64%;
+}
+
+@media only screen and (min-width: 766px) {
+    .c-awards__heading {
+        margin-bottom: 70px;
+    }
+
+    .c-awards__award {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        padding-top: 15px;
+        padding-bottom: 16px;
+        text-align: unset;
+    }
+
+    .c-awards__award * {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+    }
+    
+    .c-awards__spacer {
+        width: 33%;
+    }
+
+    .c-awards__spacer--right {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .c-awards__img {
+        margin-right: 24px;
+    }
+
+    .c-awards__award-icon {
+        margin-left: 24px;
+    }
+
+    .c-awards__text {
+        margin-top: 67px;
+    }
+}

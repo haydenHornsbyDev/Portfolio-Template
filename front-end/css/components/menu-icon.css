@@ -1,0 +1,33 @@
+.c-menu-icon {
+    border: 1px solid #ffffff4a;
+    border-radius: 6px;
+    padding: 16px 15px;
+    width: 48px;
+    height: 48px;
+}
+
+.c-menu-icon:hover {
+    border-color: #ffffffff;
+}
+
+@media only screen and (min-width: 1006px) {
+    .c-menu-icon {
+        display: none;
+    }
+}
+
+.c-menu-icon__line {
+    border-radius: 1px;
+    width: 16px;
+    height: 2px;
+    background-color: #ffffff;
+    pointer-events: none;
+}
+
+.c-menu-icon__line:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.c-menu-icon.is-active {
+    background-color: #ef6d58;
+}

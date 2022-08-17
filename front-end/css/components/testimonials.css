@@ -1,0 +1,138 @@
+.c-testimonials {
+    margin-bottom: 120px;
+}
+
+.c-testimonials__title {
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.c-testimonials__heading {
+    margin-bottom: 38px;
+    text-align: center;
+}
+
+.c-testimonials__reviews {
+    margin-bottom: 48px;
+}
+
+.c-testimonials__arrows {
+    display: none;
+}
+
+@media only screen and (min-width: 1006px) {
+    .c-testimonials__carousel {
+        position: relative;
+        margin: 0 auto;
+        width: 770px;
+    }
+    
+    .c-testimonials__arrows {
+        z-index: 1;
+        position: absolute;
+        display: block;
+        top: 0;
+        left: calc((100% - 2310px)/2);
+        right: calc((100% - 2310px)/2);
+        height: 100%
+    }
+
+    .c-testimonials__arrow--left {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: calc(50% - 385px);
+        height: 100%;
+    }
+
+    .c-testimonials__arrow--right {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: calc(50% - 385px);
+        height: 100%;
+    }
+
+    .c-testimonials .c-testimonials__reviews {
+        z-index: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .c-testimonials__reviews .glide__slide {
+        opacity: 24%;
+    }
+
+    .c-testimonials__reviews .glide__slide--active {
+        opacity: 100%;
+    }
+
+}
+
+.c-testimonials__reviews--index {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.c-testimonials__top {
+    overflow: hidden;
+    border: 1px solid #f3d1bf;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.c-testimonials__bot {
+    overflow: hidden;
+    margin-top: -1px;
+    border: 1px solid #f3d1bf;
+    border-radius: 0px 0px 6px 6px;
+}
+
+.c-testimonials__top .c-review:not(:first-child) {
+    margin-top: -1px;
+    border-top: 1px solid #f3d1bf;
+}
+
+.c-testimonials__bot .c-review {
+    margin-top: -1px;
+    border-top: 1px solid #f3d1bf;
+}
+
+@media only screen and (min-width: 1006px) {
+    .c-testimonials__reviews--index > div {
+        width: 50%;
+        height: fit-content;
+    }
+
+    .c-testimonials__top {
+        border-radius: 6px 0px 6px 6px;
+    }
+
+    .c-testimonials__bot {
+        margin-top: 0;
+        margin-left: -1px;
+        border-radius: 0px 6px 6px 0px;
+    }
+}
+
+.c-testimonials__button {
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 1216px) {
+    .c-testimonials {
+        margin-bottom: 152px;
+    }
+    
+    .c-testimonials__title {
+        margin-bottom: 31px;
+    }
+    
+    .c-testimonials__heading {
+        margin-bottom: 67px;
+    }
+    
+    .c-testimonials__reviews {
+        margin-bottom: 65px;
+    }
+}
